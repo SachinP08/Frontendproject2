@@ -8,6 +8,11 @@ html body {
     width: 100%;
     height: 100%;
 }
+
+#main {
+    width: 100%;
+    height: 100%;
+}
  
 #nav {
     height: 100px;
@@ -31,14 +36,62 @@ html body {
     border-radius: 50%;
 }
 
-#upperBox {
-    font-size: 70px;
+#centre {
+    width: 100%;
     font-family: sans-serif;
-    padding: 30px 100px;
+    padding: 30px;
 }
 
-#centre p {
+#centre #upperPara {
+    font-size: 70px;
+}
+
+#centre-in {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#centre-in p {
     font-size: 20px;
-    padding: 30px 100px;
+    line-height: 30px;
     font-family: sans-serif;
+}
+
+#centreRight {
+    width: 20%;
+}
+
+.elem {
+    margin: 5px;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem i {
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.elem:hover i {
+    opacity: 1;
+}
+
+#bottem {
+    height: 238px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1613876214872-a73df2a1b8bc?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 25%;
 }
