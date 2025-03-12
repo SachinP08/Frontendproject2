@@ -1,0 +1,7 @@
+.vscode/
+.history/
+Google Chrome/
+# macOS
+.DS_Store
+
+node_modules/
